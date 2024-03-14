@@ -1,0 +1,22 @@
+.admin-buttons {
+    display: flex;
+    justify-content: flex-end; /* Alinhar os botões à direita */
+  }
+  
+  .admin-buttons button {
+    padding: 2px 8px; /* Espaçamento interno menor */
+    font-size: 12px; /* Tamanho da fonte menor */
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Alterar cursor para indicar interatividade */
+    border-radius: 3px; /* Cantos arredondados */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+    margin-left: 5px;
+    }
+  
+  .admin-buttons button:hover {
+    background-color: #333; /* Cor de fundo um pouco mais escura ao passar o mouse */
+  }
+  
+  

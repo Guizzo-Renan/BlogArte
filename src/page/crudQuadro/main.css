@@ -1,0 +1,41 @@
+.square-container {
+    min-width: 300px; /* Largura mínima */
+    max-width: 80%; /* Largura máxima */
+    min-height: 300px; /* Altura mínima */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px; /* Adicione algum preenchimento interno */
+    box-sizing: border-box; /* Mantém o tamanho total incluindo preenchimento e borda */
+  }
+  
+  .inputs-container {
+    margin-bottom: 20px;
+  }
+  
+  .inputs-container input {
+    width: calc(100% - 20px); /* Subtrai o preenchimento interno */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons-container button {
+    margin-right: 10px;
+    padding: 10px 20px;
+  }
+  
+  .crud-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .crud-button:hover {
+    background-color: #0056b3;
+  }

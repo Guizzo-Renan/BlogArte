@@ -1,0 +1,76 @@
+
+
+.card-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    height: 2400px;
+  }
+  
+  .parallax-card {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  
+  .parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+/*
+const CardContainer = styled(motion.div)`
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff; 
+  overflow: hidden; 
+  
+  height: 2400px; 
+`;
+
+const ParallaxCard = styled(motion.div)`
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 20px;
+  z-index: 1; 
+`;
+
+const ParallaxBg = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+`;
+
+const Content = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+`;
+
+*/

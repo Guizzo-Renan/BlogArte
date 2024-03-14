@@ -1,0 +1,80 @@
+.about-container {
+    overflow: hidden;
+    width: 90%;
+    margin: 2vh auto;
+    height: auto; /* Ajustado para altura automática */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    text-align: center; /* Centraliza os elementos horizontalmente */
+  }
+  
+  .about-a {
+    overflow: hidden;
+    width: 100%;
+    height: auto; /* Ajustado para altura automática */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .artist-title {
+    font-size: 4rem;
+    margin-bottom: 0.5rem; /* Reduz a margem inferior */
+    text-align: center; /* Centraliza o texto */
+    z-index: 2; /* Garante que o título esteja acima da imagem */
+  }
+  
+  .artist-text {
+    font-size: 1.8rem;
+    opacity: 0.8;
+    max-width: 100%; /* Limita a largura do texto */
+    margin-left: 5%; /* Afasta o texto da imagem */
+    padding: 0 20px; /* Adiciona espaçamento interno */
+  }
+  
+  .back-button {
+    background-color: rgba(43, 43, 43, 0.959);
+    border: solid;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+    z-index: 2; /* Garante que o botão esteja acima da imagem */
+  }
+  
+  .artist-image {
+    width: 900px; /* Largura da imagem ajustada para 80% */
+    height: 900px; /* Altura automática para evitar corte */
+    object-fit: cover;
+    border-radius: 40px; /* Aumenta o border-radius */
+    z-index: 1;
+  }
+  
+  /* Mídia query para telas menores */
+  @media (max-width: 768px) {
+    .artist-title {
+      font-size: 3rem;
+    }
+    
+    .artist-text {
+      font-size: 1.4rem;
+      max-width: 80%; /* Ajusta a largura máxima do texto */
+      margin-left: 10%; /* Ajusta a margem esquerda do texto */
+    }
+    
+    .back-button {
+      font-size: 1.2rem;
+      padding: 1.2rem 2.5rem; /* Ajusta o padding do botão */
+    }
+    
+    .artist-image {
+      width: 50%; /* Ajusta a largura da imagem */
+    }
+  }
